@@ -13,12 +13,11 @@ import store from './store'
 
 React.icons = icons
 
-ReactDOM.render(
-  <Provider store={store}>
+   // Require the new version and render it instead
+   ReactDOM.render( <Provider store={store}>
     <App/>
-  </Provider>, 
-  document.getElementById('root')
-);
+  </Provider>, document.getElementById('root'))
+  
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

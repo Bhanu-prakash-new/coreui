@@ -1,1 +1,23 @@
 // Here you can add other styles
+@media (max-width: 991.98px) {
+  .d-md-down-none {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+.dangerRed {
+  color: red !important;
+  font-size: 14px;
+}
+.dangeralert {
+  background: red;
+  color: white !important;
+  padding: 10px;
+  font-size: 14px;
+}
+.registerpage {
+  .c-avatar-img {
+    width: 100px;
+    height: 100px;
+  }
+}
