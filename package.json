@@ -14,7 +14,8 @@
       "url": "https://github.com/orgs/coreui/people"
     }
   ],
-   "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
+  "homepage": "./build",
+  "copyright": "Copyright 2017-2020 creativeLabs Łukasz Holeczek",
   "license": "MIT",
   "private": true,
   "repository": {
