@@ -37,7 +37,7 @@ const Register = (props) => {
 
   const [newtorkErrors, setapierrors] = React.useState([]);
 
-  const [registered, setRegistered] = React.useState(true);
+  const [registered, setRegistered] = React.useState(false);
 
   const validateInput = () => {
     let noerrors = true;
